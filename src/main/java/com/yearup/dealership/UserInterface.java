@@ -3,7 +3,6 @@ package com.yearup.dealership;
 public class UserInterface {
 
 
-
     public UserInterface(){
 
     }
@@ -13,7 +12,6 @@ public class UserInterface {
         System.out.println("Dealership App");
     }
 
-    private
 
 
 }

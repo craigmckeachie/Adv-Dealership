@@ -19,4 +19,12 @@ public class Dealership {
     public ArrayList<Vehicle> getAllVehicles() {
         return inventory;
     }
+
+    public void addVehicle(Vehicle vehicle){
+        this.inventory.add(vehicle);
+    }
+
+    public void removeVehicle(Vehicle vehicle){
+        this.inventory.remove(vehicle);
+    }
 }
