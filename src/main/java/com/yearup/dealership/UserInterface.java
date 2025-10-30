@@ -3,11 +3,6 @@ package com.yearup.dealership;
 public class UserInterface {
     private Dealership dealership;
 
-
-    public UserInterface(){
-
-    }
-
     public void display(){
         System.out.println("Dealership App");
 
@@ -32,7 +27,7 @@ public class UserInterface {
 
 
         // Print all vehicles in the inventory
-        System.out.println("Inventory for " + dealership.getAllVehicles().size() + " vehicles at " + dealership.getAllVehicles());
+        System.out.println("Inventory for " + dealership.getAllVehicles().size() + " vehicles ");
         System.out.println("Dealership Inventory:\n");
 
         for (Vehicle vehicle : dealership.getAllVehicles()) {
